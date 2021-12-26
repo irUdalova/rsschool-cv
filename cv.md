@@ -1,4 +1,4 @@
-# Irina Udalova
+# Iryna Udalova
 
 ## Contact information:
 
@@ -14,13 +14,14 @@
 
 ## About Me
 
-I have started my career as a web designer and gradually became a digital artist. But I'm always searching for opportunities to self-grow in different ways and I like to challenge myself. That way I've decided to be a frontend developer and I believe that I have all the necessary skills to succeed. I have a high ability to learn and stay motivated during the learning process. I am highly responsible, friendly, respectful to others and I love teamwork.
+I used to be a design engineer at a factory and later I have decided I want to work with Web. I have started my path as a web designer and a digital artist. Later I have realized I am more interested in the engineering part of Web so I have decided to be a frontend engineer and I believe that I have all the necessary skills to succeed. I have a high ability to learn and to stay motivated during the learning process. I am a highly responsible and friendly person who enjoys teamwork.
 
 ## Skills
 
-- HTML, CSS3
+- HTML, CSS
 - JavaScript Basics
-- Git
+- Git, GitHub
+- VS Code, Chrome Dev tools
 - Adobe Photoshop, Illustrator
 
 ## Code example
@@ -36,12 +37,14 @@ function even_or_odd(number) {
 
 ## Experience
 
-- Training project [CV](https://github.com/irUdalova/rsschool-cv.git)
+- Training project [CV](https://github.com/irUdalova/rsschool-cv)
 
 ## Education and courses:
 
-- RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
-- JavaScript, CSS, HTML on [https://ru.code-basics.com](https://ru.code-basics.com)
+- RS School Course «JavaScript/Front-end. Stage 0» (in progress)
+- JavaScript, CSS, HTML courses on [https://ru.code-basics.com](https://ru.code-basics.com)
+- National Aerospace University "Kharkiv Aviation Institute"
+  - Master's degree (Aircraft and rocket building)
 
 ## Languages
 
