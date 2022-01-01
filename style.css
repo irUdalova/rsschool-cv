@@ -11,7 +11,37 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+
   font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #000000;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration:none;
+}
+
+a:visited {
+  color: #000000;
+}
+
+pre {
+  background-color: #F4F4F4;
+  margin: 0;
+  padding: 20px;
+  width: 100%;
+}
+
+code {
+  display: block;
+  margin: 0;
+  padding: 0;
 }
 
 .nav-list {
@@ -38,13 +68,17 @@ body {
   margin: 0 0 30px;
 }
 
+.section-title {
+  margin: 0 0 30px;
+}
+
 h1 {
   font-size: 2em;
   margin: 0 0 10px;
 }
 
 .occupation {
-  font-weight: 200;
+  font-weight: 300;
   margin: 0 0 80px;
 }
 
@@ -61,9 +95,15 @@ ul {
   display: flex;
 }
 
+.contact-container,
+.skill-container {
+  margin: 0;
+}
+
 .contact-box {
   display: flex;
   align-items: center;
+  padding-bottom: 20px;
 }
 
 .contact-ico {
@@ -99,13 +139,41 @@ ul {
   background-color: #CFCFCF;
 }
 
+.marker-box {
+ display: flex;
+ align-items: center;
+ padding-bottom: 10px;
+}
 
-.footer {
-  max-width: 1024px;
-  margin: 0 auto;
+.marker {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #CFCFCF;
+  padding-right: 10px;
+  margin-right: 10px;
+}
+
+.education-text {
+  padding-left: 20px;
+  font-weight: 300;
+}
+
+.projects-text{
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  align-items: center;
+}
+
+.projects-text a {
+  padding: 5px;
+  margin-left: 10px;
+  background-color: #F4F4F4;
+}
+
+.projects-text a:hover {
+  background-color: #737373;
+  color: white;
+  transition: 0.2s;
 }
 
 .left-side {
@@ -116,5 +184,18 @@ ul {
 
 .right-side {
   width: 60%;
-  margin: 40px;
+  padding: 50px;
+}
+
+.section-text {
+  font-weight: 300;
+  text-align: justify;
+}
+
+.footer {
+  max-width: 1024px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
