@@ -24,16 +24,12 @@ p {
 }
 
 a {
-  text-decoration:none;
-}
-
-a:visited {
-  color: #000000;
+  text-decoration: none;
 }
 
 pre {
   background-color: #F4F4F4;
-  margin: 0;
+  margin: 10px 0 0;
   padding: 20px;
   width: 100%;
 }
@@ -44,16 +40,37 @@ code {
   padding: 0;
 }
 
+.nav-container {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
 .nav-list {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0 0 10px;
   list-style: none;
+  background-color: #F4F4F4;
+  /* color: #0969da; */
+  /* color: #000000; */
+}
+
+.nav-items {
+  flex-grow: 1;
+  text-align: center;
+  margin: 0 5px;
+  /* color: #0969da; */
+}
+
+.nav-items:hover {
+  background-color: white;
+  transition: 0.2s;
 }
 
 .nav-link {
-  padding: 0 20px;
   line-height: 50px;
+  color: #000000;
 }
 
 .container {
@@ -93,6 +110,8 @@ ul {
   width: auto;
   margin: 0 auto 30px;
   display: flex;
+  width: 100%;
+  height: auto;
 }
 
 .contact-container,
@@ -154,12 +173,21 @@ ul {
   margin-right: 10px;
 }
 
+.text-link {
+  color: #0969da;
+}
+
+.text-link:hover {
+  text-decoration: underline;
+  transition: 0.2s;
+}
+
 .education-text {
   padding-left: 20px;
   font-weight: 300;
 }
 
-.projects-text{
+.projects-text {
   display: flex;
   align-items: center;
 }
@@ -168,6 +196,7 @@ ul {
   padding: 5px;
   margin-left: 10px;
   background-color: #F4F4F4;
+  color: #000000;
 }
 
 .projects-text a:hover {
@@ -198,4 +227,28 @@ ul {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
+  background-color: #CFCFCF;
+}
+
+.github-link {
+  display: flex;
+  align-items: center;
+}
+
+.github-icon {
+  margin: 10px 10px 10px 50px;
+}
+
+.github-text:hover {
+  color: white;
+  transition: 0.2s;
+}
+
+.github-text {
+  color: #000000;
+}
+
+.rs-icon {
+  margin: 10px 50px 10px 10px;
 }
