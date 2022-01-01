@@ -34,6 +34,72 @@ body {
   justify-content: center;
 }
 
+.section {
+  margin: 0 0 30px;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0 0 10px;
+}
+
+.occupation {
+  font-weight: 200;
+  margin: 0 0 80px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.avatar-box {
+  border: 15px solid #FFFFFF;
+  border-radius: 50%;
+  width: auto;
+  margin: 0 auto 30px;
+  display: flex;
+}
+
+.contact-box {
+  display: flex;
+  align-items: center;
+}
+
+.contact-ico {
+  margin-right: 10px;
+}
+
+.skill-box {
+  padding-bottom: 20px;;
+}
+.skill-text {
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+.skill-points {
+  display: flex;
+  justify-content: space-between;
+  width: 35%;
+  padding: 0;
+}
+
+.skill-achiev {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #737373;
+}
+
+.skill-blank {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #CFCFCF;
+}
+
+
 .footer {
   max-width: 1024px;
   margin: 0 auto;
@@ -45,6 +111,7 @@ body {
 .left-side {
   width: 40%;
   background-color: #F4F4F4;
+  padding: 50px;
 }
 
 .right-side {
