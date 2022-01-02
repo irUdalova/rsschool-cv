@@ -1,3 +1,250 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #000000;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+pre {
+  background-color: #F4F4F4;
+  margin: 10px 0 0;
+  padding: 20px;
+  width: 100%;
+}
+
+code {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-container {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 0 10px;
+  list-style: none;
+  background-color: #F4F4F4;
+}
+
+.nav-items {
+  flex-grow: 1;
+  text-align: center;
+  margin: 0 5px;
+}
+
+.nav-items:hover {
   background-color: white;
+  transition: 0.2s;
+}
+
+.nav-link {
+  line-height: 50px;
+  color: #000000;
+}
+
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.section {
+  margin: 0 0 30px;
+}
+
+.section-title {
+  margin: 0 0 30px;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0 0 10px;
+}
+
+.occupation {
+  font-weight: 300;
+  margin: 0 0 80px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.avatar-box {
+  border: 15px solid #FFFFFF;
+  border-radius: 50%;
+  width: auto;
+  margin: 0 auto 30px;
+  display: flex;
+  width: 100%;
+  height: auto;
+}
+
+.contact-container,
+.skill-container {
+  margin: 0;
+}
+
+.contact-box {
+  display: flex;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.contact-ico {
+  margin-right: 10px;
+}
+
+.skill-box {
+  padding-bottom: 20px;;
+}
+.skill-text {
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+.skill-points {
+  display: flex;
+  justify-content: space-between;
+  width: 35%;
+  padding: 0;
+}
+
+.skill-achiev {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #737373;
+}
+
+.skill-blank {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #CFCFCF;
+}
+
+.marker-box {
+ display: flex;
+ align-items: center;
+ padding-bottom: 10px;
+}
+
+.marker {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #CFCFCF;
+  padding-right: 10px;
+  margin-right: 10px;
+}
+
+.text-link {
+  color: #0969da;
+}
+
+.text-link:hover {
+  text-decoration: underline;
+  transition: 0.2s;
+}
+
+.education-text {
+  padding-left: 20px;
+  font-weight: 300;
+}
+
+.projects-text {
+  display: flex;
+  align-items: center;
+}
+
+.projects-text a {
+  padding: 5px;
+  margin-left: 10px;
+  background-color: #F4F4F4;
+  color: #000000;
+}
+
+.projects-text a:hover {
+  background-color: #737373;
+  color: white;
+  transition: 0.2s;
+}
+
+.left-side {
+  width: 40%;
+  background-color: #F4F4F4;
+  padding: 50px;
+}
+
+.right-side {
+  width: 60%;
+  padding: 50px;
+}
+
+.section-text {
+  font-weight: 300;
+  text-align: justify;
+}
+
+.footer {
+  max-width: 1024px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #CFCFCF;
+}
+
+.github-link {
+  display: flex;
+  align-items: center;
+}
+
+.github-icon {
+  margin: 10px 10px 10px 50px;
+}
+
+.github-text:hover {
+  color: white;
+  transition: 0.2s;
+}
+
+.github-text {
+  color: #000000;
+}
+
+.rs-icon {
+  margin: 10px 50px 10px 10px;
 }
