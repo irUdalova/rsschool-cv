@@ -45,7 +45,7 @@ function nicknameGenerator(name){
 - Training project [Portfolio](https://rolling-scopes-school.github.io/irudalova-JSFEPRESCHOOL/portfolio/)
 - Training project [Eco sounds](https://rolling-scopes-school.github.io/irudalova-JSFEPRESCHOOL/eco-sounds/)
  - Training project [Quoted](https://rolling-scopes-school.github.io/irudalova-JSFEPRESCHOOL/random-jokes/)
- - Training project [Memory game](https://rolling-scopes-school.github.io/irudalova-JSFEPRESCHOOL/memory-game/)
+ - Training project [Memory game](https://rolling-scopes-school.github.io/irudalova-JSFEPRESCHOOL/memory-game)
 
 ## Education and courses:
 

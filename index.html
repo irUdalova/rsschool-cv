@@ -74,7 +74,7 @@
                 <img src="assets/svg/discord.svg" alt="Discord icon" width="16" height="16">
               </div>
               <div class="contact-text">
-                <p>Iryna Udalova</p>
+                <p>Iryna Udalova#5342</p>
               </div>
             </li>
 
@@ -179,7 +179,8 @@
           <ul>
             <li class="marker-box">
               <p class="marker"></p>
-              <p>RS School Course «JavaScript/Front-end. Stage 0» (in progress)</p>
+              <p>RS School Course <a href="https://app.rs.school/certificate/45p5a5uv"
+                  class="text-link">«JavaScript/Front-end. Stage 0» </a></p>
             </li>
 
             <li class="marker-box">
@@ -193,19 +194,42 @@
         <section class="section" id="code">
           <h2 class="section-title">Code</h2>
           <p>Solution of kata from Codewars:</p>
-          <p class="section-text">Create a function that takes an integer as an argument and returns "Even" for even
-            numbers or "Odd" for odd
-            numbers.</p>
-          <pre><code>function even_or_odd(number) {
- return number % 2 ? 'Odd' : 'Even';
+          <p class="section-text">Create a function that takes a string name as an argument and returns the first 3 or 4
+            letters as a nickname.
+            If the 3rd letter is a consonant, return the first 3 letters. If the 3rd letter is a vowel, return the first
+            4 letters.</p>
+          <pre><code>function nicknameGenerator(name){
+  if (name.length < 4) {
+  return "Error: Name too short";
+  }  
+  const vow = ["a", "e", "i", "o", "u"];
+  let nick = vow.includes(name[2]) ? 4 : 3;
+  return name.slice(0, nick);   
 }         </code></pre>
         </section>
 
         <section class="section" id="projects">
           <h2 class="section-title">Projects</h2>
-          <div class="projects-text">
-            <p>Training project</p><a href="https://github.com/irUdalova/rsschool-cv">CV</a>
+
+          <div class="projects-wrap">
+            <a href="https://rolling-scopes-school.github.io/irudalova-JSFEPRESCHOOL/portfolio/">
+              <img class="project-view" src="assets/img/portfolio.jpg" alt="Portfolio" width="250" height="140">
+            </a>
+
+            <a href="https://rolling-scopes-school.github.io/irudalova-JSFEPRESCHOOL/memory-game">
+              <img class="project-view" src="assets/img/memory-game.jpg" alt="Portfolio" width="250" height="140">
+            </a>
+
+            <a href="https://rolling-scopes-school.github.io/irudalova-JSFEPRESCHOOL/random-jokes/">
+              <img class="project-view" src="assets/img/random-quote.jpg" alt="Portfolio" width="250" height="140">
+            </a>
+
+            <a href="https://rolling-scopes-school.github.io/irudalova-JSFEPRESCHOOL/eco-sounds/">
+              <img class="project-view" src="assets/img/eco-sound.jpg" alt="Portfolio" width="250" height="140">
+            </a>
+
           </div>
+
         </section>
 
         <section class="section" id="languages">
@@ -246,8 +270,8 @@
 
       <p>©2022</p>
 
-      <a class="rs-icon" href="https://rs.school/js">
-        <img src="assets/svg/rs_school_js.svg" alt="GitHub icon" width="67" height="24">
+      <a href="https://rs.school/js">
+        <img class="rs-icon" src="assets/svg/rs_school_js.svg" alt="GitHub icon" width="84" height="30">
       </a>
 
     </div>

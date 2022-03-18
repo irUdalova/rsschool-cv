@@ -48,7 +48,7 @@ code {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 0 10px;
+  margin: 0 0 20px;
   list-style: none;
   background-color: #F4F4F4;
 }
@@ -56,17 +56,18 @@ code {
 .nav-items {
   flex-grow: 1;
   text-align: center;
-  margin: 0 5px;
-}
-
-.nav-items:hover {
-  background-color: white;
-  transition: 0.2s;
 }
 
 .nav-link {
   line-height: 50px;
+  display: block;
   color: #000000;
+  transition: 0.3s;
+}
+
+.nav-link:hover {
+  background-color: #2494ce;
+  color: white;
 }
 
 .container {
@@ -75,6 +76,7 @@ code {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  margin-bottom: 20px;
 }
 
 .section {
@@ -82,17 +84,23 @@ code {
 }
 
 .section-title {
+  background-color: #2494ce;
+  color: white;
+  font-weight: 300;
+  padding-left: 20px;
   margin: 0 0 30px;
 }
 
 h1 {
   font-size: 2em;
-  margin: 0 0 10px;
+  text-align: center;
+  margin: 0;
 }
 
 .occupation {
   font-weight: 300;
-  margin: 0 0 80px;
+  margin: 0 0 85px;
+  text-align: center;
 }
 
 ul {
@@ -144,7 +152,7 @@ ul {
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background-color: #737373;
+  background-color: #2494ce;
 }
 
 .skill-blank {
@@ -170,7 +178,7 @@ ul {
 }
 
 .text-link {
-  color: #0969da;
+  color: #2494ce;
 }
 
 .text-link:hover {
@@ -183,22 +191,23 @@ ul {
   font-weight: 300;
 }
 
-.projects-text {
-  display: flex;
-  align-items: center;
+.projects-wrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 6px;
 }
 
-.projects-text a {
-  padding: 5px;
-  margin-left: 10px;
-  background-color: #F4F4F4;
-  color: #000000;
+.project-view {
+  width: 100%;
+  height: auto;
+  opacity: 0.7;
+  transform: scale(1);
+  transition: transform 0.3s;
 }
 
-.projects-text a:hover {
-  background-color: #737373;
-  color: white;
-  transition: 0.2s;
+.project-view:hover {
+  transform: scale(1.02);
+  opacity: 1;
 }
 
 .left-side {
@@ -209,7 +218,7 @@ ul {
 
 .right-side {
   width: 60%;
-  padding: 50px;
+  padding: 0 0 50px 50px;
 }
 
 .section-text {
@@ -218,13 +227,14 @@ ul {
 }
 
 .footer {
-  max-width: 1024px;
-  margin: 0 auto;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  background-color: #CFCFCF;
+  max-width: 1024px;
+  margin: 0 auto;  
+  color: white;  
+  background-color: #2494ce;
 }
 
 .github-link {
@@ -236,15 +246,22 @@ ul {
   margin: 10px 10px 10px 50px;
 }
 
-.github-text:hover {
+.github-text {
   color: white;
-  transition: 0.2s;
+  transform: scale(1);
+  transition: 0.3s;
 }
 
-.github-text {
-  color: #000000;
+.github-text:hover {
+  transform: scale(1.07);  
 }
 
 .rs-icon {
-  margin: 10px 50px 10px 10px;
+  margin: 15px 50px 10px 10px;
+  transform: scale(1);
+  transition: 0.3s;
+}
+
+.rs-icon:hover {
+  transform: scale(1.07);
 }
